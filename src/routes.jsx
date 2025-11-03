@@ -12,6 +12,10 @@ const routes = [
     path: "profile/:name",
     element: <Profile />,
   },
+  {
+    path: "profile",
+    element: <Profile />,
+  },
 ];
 
 export default routes;
